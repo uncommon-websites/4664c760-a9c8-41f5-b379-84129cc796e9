@@ -19,8 +19,8 @@
 	<!-- Video Placeholder -->
 	<div class="relative w-full aspect-video md:aspect-[2/1] bg-gray-900 rounded-lg overflow-hidden group cursor-pointer">
 		<img 
-			src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop" 
-			alt="Private equity professionals conducting due diligence" 
+			src="/uploaded/1765294985248-xv1keas.jpg" 
+			alt="DiligenceSquared founders" 
 			class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
 		/>
 		<div class="absolute inset-0 flex items-center justify-center">
