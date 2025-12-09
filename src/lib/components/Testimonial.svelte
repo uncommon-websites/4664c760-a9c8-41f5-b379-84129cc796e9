@@ -8,8 +8,8 @@
 			<!-- Image -->
 			<div class="relative rounded-lg overflow-hidden aspect-video lg:aspect-[4/3] bg-gray-800 shadow-2xl">
 				<img 
-					src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2874&auto=format&fit=crop" 
-					alt="Repsol Case Study" 
+					src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2787&auto=format&fit=crop" 
+					alt="Axcel Case Study" 
 					class="w-full h-full object-cover opacity-70 hover:scale-105 transition-transform duration-700"
 				/>
 				<div class="absolute inset-0 flex items-center justify-center">
@@ -26,8 +26,8 @@
 					</blockquote>
 					<div class="flex items-center justify-between flex-wrap gap-6">
 						<div>
-							<cite class="not-italic font-medium block text-lg">Pablo Blanco Pérez</cite>
-							<span class="text-sm text-gray-400">General Counsel, Repsol</span>
+							<cite class="not-italic font-medium block text-lg">Oscar Hjort</cite>
+							<span class="text-sm text-gray-400">Associate Director, Axcel</span>
 						</div>
 						<button class="bg-white text-black px-6 py-3 rounded text-sm font-medium hover:bg-gray-200 transition-colors">
 							Read Case Study
@@ -38,7 +38,6 @@
 				<!-- Dots -->
 				<div class="flex gap-2 justify-center lg:justify-start mt-12">
 					<button class="w-2 h-2 rounded-full bg-white"></button>
-					<button class="w-2 h-2 rounded-full bg-gray-700 hover:bg-gray-500 transition-colors"></button>
 					<button class="w-2 h-2 rounded-full bg-gray-700 hover:bg-gray-500 transition-colors"></button>
 					<button class="w-2 h-2 rounded-full bg-gray-700 hover:bg-gray-500 transition-colors"></button>
 				</div>

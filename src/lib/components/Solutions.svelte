@@ -5,14 +5,14 @@
 <section class="py-32 border-b border-white/5">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="text-center mb-16">
-			<span class="text-sm text-gray-400 block mb-3 font-medium">Solutions for All Lawyers</span>
-			<h2 class="text-4xl md:text-5xl font-serif mb-10">How Lawyers Use Harvey</h2>
+			<span class="text-sm text-gray-400 block mb-3 font-medium">Built for Deal Teams</span>
+			<h2 class="text-4xl md:text-5xl font-serif mb-10">How PE Firms Use DiligenceSquared</h2>
 			
 			<div class="inline-flex flex-wrap justify-center gap-1 p-1 bg-surface rounded-full border border-white/10">
-				<button class="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium shadow-sm">In-House Counsel</button>
-				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Innovation Teams</button>
-				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Transactional Work</button>
-				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Litigation Work</button>
+				<button class="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium shadow-sm">Pre-LOI Diligence</button>
+				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Market Sizing</button>
+				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Customer Insights</button>
+				<button class="px-5 py-2.5 rounded-full text-gray-400 hover:text-white text-sm font-medium transition-colors">Competitive Analysis</button>
 			</div>
 		</div>
 
@@ -65,12 +65,12 @@
 
 			<!-- Content Side -->
 			<div class="p-12 lg:p-20 flex flex-col justify-center">
-				<h3 class="text-3xl font-serif mb-6">Innovation Teams</h3>
+				<h3 class="text-3xl font-serif mb-6">Pre-LOI Commercial Diligence</h3>
 				<p class="text-gray-400 mb-10 leading-relaxed text-lg font-light">
-					Drive transformation by embedding your firm's unique expertise, elevating client service, and showing impact.
+					Get deep market insights before committing to expensive traditional consulting. Make confident IC presentations with auditable customer data.
 				</p>
 				<a href="#" class="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
-					Solutions for Innovation Teams <ChevronRight size={12} class="group-hover:translate-x-0.5 transition-transform" />
+					Explore Use Cases <ChevronRight size={12} class="group-hover:translate-x-0.5 transition-transform" />
 				</a>
 			</div>
 		</div>

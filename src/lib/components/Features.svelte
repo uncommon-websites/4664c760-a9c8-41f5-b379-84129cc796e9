@@ -1,99 +1,145 @@
 <script lang="ts">
 	import FeatureSection from './FeatureSection.svelte';
-	import { FileText, Shield, Zap, Search, Globe, Scale } from 'lucide-svelte';
+	import { MessageSquare, FileSearch, Globe, BarChart3 } from 'lucide-svelte';
 </script>
 
 <section>
 	<div class="py-24 text-center border-b border-white/5">
 		<h2 class="text-3xl md:text-4xl font-serif">
-			Augment All of Your Work on <br />
-			One Integrated, Secure Platform
+			Complete Due Diligence Platform <br />
+			Built for Speed and Precision
 		</h2>
 	</div>
 
-	<!-- Feature 1: Assistant -->
+	<!-- Feature 1: AI Interviews -->
 	<FeatureSection
-		title="Assistant"
-		subtitle="Tailored to Your Expertise"
-		description="Delegate complex tasks in natural language to your domain-specific personal assistant."
-		linkText="Explore Assistant"
+		title="AI-Moderated Interviews"
+		subtitle="Human-Level Depth at Machine Speed"
+		description="Conduct 120+ expert interviews in a week. Our AI agents ask follow-up questions, probe deeper, and capture nuanced insights that traditional surveys miss."
+		linkText="See Interview Capabilities"
 		reversed={false}
 	>
-		<!-- Assistant UI Mockup -->
+		<!-- Interview UI Mockup -->
 		<div class="bg-white text-black p-8 rounded shadow-2xl w-full max-w-md relative">
-			<p class="mb-6 font-serif text-lg leading-relaxed">
-				As requested, I am providing a detailed summary of the main interim operating covenants that restrict AavantiBio during the period between the signing and closing of the merger agreement with Solid Biosciences Inc. <sup class="bg-gray-200 px-1 rounded text-xs">1</sup> These covenants are designed to ensure that AavantiBio maintains its business operations in a manner consistent with past practices and does not undertake any actions that could adversely affect the merger. <sup class="bg-gray-200 px-1 rounded text-xs">2</sup> <sup class="bg-gray-200 px-1 rounded text-xs">3</sup> Conduct of Business in the Ordinary Course Aav...
-			</p>
-			<div class="absolute bottom-4 right-4 w-3 h-3 bg-gray-400 rounded-full animate-pulse"></div>
+			<div class="flex items-start gap-3 mb-4">
+				<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center flex-shrink-0">
+					<MessageSquare size={16} />
+				</div>
+				<div class="flex-1">
+					<p class="text-sm text-gray-600 mb-1">AI Interviewer</p>
+					<p class="text-sm leading-relaxed">
+						"Can you walk me through your decision-making process when evaluating vendors in this space? What factors matter most?"
+					</p>
+				</div>
+			</div>
+			<div class="flex items-start gap-3 mb-4">
+				<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center flex-shrink-0 text-white text-xs">
+					EX
+				</div>
+				<div class="flex-1">
+					<p class="text-sm text-gray-600 mb-1">Expert Response</p>
+					<p class="text-sm leading-relaxed">
+						"Price is important, but reliability and integration capabilities are actually the primary drivers..."
+					</p>
+				</div>
+			</div>
+			<div class="absolute bottom-4 right-4 w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
 		</div>
 	</FeatureSection>
 
-	<!-- Feature 2: Knowledge -->
+	<!-- Feature 2: Automated Synthesis -->
 	<FeatureSection
-		title="Knowledge"
-		subtitle="Rapid Research, Grounded Results"
-		description="Get answers to complex research questions across multiple domains in legal, regulatory, and tax with accurate citations."
-		linkText="Explore Knowledge"
+		title="Automated Synthesis"
+		subtitle="From Raw Data to Investment Insights"
+		description="Our AI analyzes hundreds of interviews and synthesizes findings into clear, actionable reports. Every insight is traceable to its source for complete auditability."
+		linkText="View Sample Reports"
 		reversed={true}
 	>
-		<!-- Knowledge UI Mockup -->
-		<div class="w-full max-w-sm">
-			<div class="bg-white text-black p-8 rounded shadow-2xl aspect-[4/3] flex items-center justify-center">
-				<span class="text-3xl font-serif">Tax</span>
+		<!-- Synthesis UI Mockup -->
+		<div class="bg-white text-black p-6 rounded shadow-2xl w-full max-w-md text-xs">
+			<div class="mb-4 pb-3 border-b border-gray-200">
+				<h3 class="font-semibold text-sm mb-2">Market Size & Growth</h3>
+				<p class="text-gray-600 text-xs leading-relaxed mb-2">
+					TAM estimated at $2.3B growing 18% annually <sup class="bg-gray-200 px-1 rounded">12</sup> <sup class="bg-gray-200 px-1 rounded">18</sup>
+				</p>
+			</div>
+			<div class="mb-4 pb-3 border-b border-gray-200">
+				<h3 class="font-semibold text-sm mb-2">Competitive Position</h3>
+				<p class="text-gray-600 text-xs leading-relaxed mb-2">
+					Target leads in enterprise segment with 34% share <sup class="bg-gray-200 px-1 rounded">7</sup> <sup class="bg-gray-200 px-1 rounded">23</sup>
+				</p>
+			</div>
+			<div>
+				<h3 class="font-semibold text-sm mb-2">Key Risks</h3>
+				<p class="text-gray-600 text-xs leading-relaxed">
+					Customer concentration: top 3 = 42% revenue <sup class="bg-gray-200 px-1 rounded">31</sup>
+				</p>
 			</div>
 		</div>
 	</FeatureSection>
 
-	<!-- Feature 3: Vault -->
+	<!-- Feature 3: Multilingual -->
 	<FeatureSection
-		title="Vault"
-		subtitle="Secure Project Workspaces"
-		description="Upload, store, and analyze thousands of documents using powerful generative AI."
-		linkText="Explore Vault"
+		title="Global Reach"
+		subtitle="Multilingual Capabilities"
+		description="Conduct interviews in local languages across 5+ countries simultaneously. Our AI voice agents handle Nordic, European, and Asian markets with native fluency."
+		linkText="See Language Support"
 		reversed={false}
 	>
-		<!-- Vault UI Mockup -->
-		<div class="bg-white text-black p-6 rounded shadow-2xl w-full max-w-md text-xs">
-			<div class="grid grid-cols-3 gap-4 mb-4 font-semibold border-b pb-2">
-				<div>File Name</div>
-				<div>Parties</div>
-				<div>Clause</div>
-			</div>
-			{#each [1, 2, 3, 4, 5, 6, 7] as i}
-				<div class="grid grid-cols-3 gap-4 mb-3 opacity-60">
-					<div class="h-2 bg-gray-200 rounded w-3/4"></div>
-					<div class="h-2 bg-gray-200 rounded w-full"></div>
-					<div class="h-2 bg-gray-200 rounded w-5/6"></div>
-				</div>
-			{/each}
-		</div>
-	</FeatureSection>
-
-	<!-- Feature 4: Workflows -->
-	<FeatureSection
-		title="Workflows"
-		subtitle="Streamline Your Work"
-		description="Multi-model agents designed to collaborate with professionals to deliver precise, purpose-built work product. More coming soon."
-		linkText="Explore Workflows"
-		reversed={true}
-	>
-		<!-- Workflows UI Mockup -->
+		<!-- Multilingual UI Mockup -->
 		<div class="grid grid-cols-2 gap-4 w-full max-w-md">
 			<div class="bg-white text-black p-6 rounded shadow-lg flex flex-col items-center text-center gap-4 aspect-square justify-center hover:scale-[1.02] transition-transform duration-300">
-				<Shield size={32} strokeWidth={1.5} />
-				<span class="font-medium text-lg">Assess Risks</span>
-			</div>
-			<div class="bg-white text-black p-6 rounded shadow-lg flex flex-col items-center text-center gap-4 aspect-square justify-center hover:scale-[1.02] transition-transform duration-300">
-				<FileText size={32} strokeWidth={1.5} />
-				<span class="font-medium text-lg">Support Argument</span>
+				<Globe size={32} strokeWidth={1.5} />
+				<span class="font-medium text-sm">English</span>
 			</div>
 			<div class="bg-white text-black p-6 rounded shadow-lg flex flex-col items-center text-center gap-4 aspect-square justify-center hover:scale-[1.02] transition-transform duration-300">
 				<Globe size={32} strokeWidth={1.5} />
-				<span class="font-medium text-lg">Translation</span>
+				<span class="font-medium text-sm">Danish</span>
 			</div>
 			<div class="bg-white text-black p-6 rounded shadow-lg flex flex-col items-center text-center gap-4 aspect-square justify-center hover:scale-[1.02] transition-transform duration-300">
-				<Zap size={32} strokeWidth={1.5} />
-				<span class="font-medium text-lg">Credit Agreement</span>
+				<Globe size={32} strokeWidth={1.5} />
+				<span class="font-medium text-sm">German</span>
+			</div>
+			<div class="bg-white text-black p-6 rounded shadow-lg flex flex-col items-center text-center gap-4 aspect-square justify-center hover:scale-[1.02] transition-transform duration-300">
+				<Globe size={32} strokeWidth={1.5} />
+				<span class="font-medium text-sm">Swedish</span>
+			</div>
+		</div>
+	</FeatureSection>
+
+	<!-- Feature 4: Interactive Reports -->
+	<FeatureSection
+		title="Interactive Reports"
+		subtitle="Full Auditability & Traceability"
+		description="Every finding links back to source interviews. Review transcripts, validate insights, and drill down into the data. Built for the scrutiny of Investment Committees."
+		linkText="Explore Platform"
+		reversed={true}
+	>
+		<!-- Reports UI Mockup -->
+		<div class="bg-white text-black p-6 rounded shadow-2xl w-full max-w-md text-xs">
+			<div class="flex items-center justify-between mb-4 pb-3 border-b border-gray-200">
+				<div class="flex items-center gap-2">
+					<FileSearch size={16} />
+					<span class="font-semibold text-sm">Finding Details</span>
+				</div>
+				<span class="text-[10px] bg-gray-100 px-2 py-1 rounded-full">Validated</span>
+			</div>
+			<p class="text-gray-700 text-xs mb-3 leading-relaxed">
+				"Customers cite integration complexity as primary barrier to adoption"
+			</p>
+			<div class="space-y-2">
+				<div class="flex items-center justify-between text-[10px] text-gray-500 hover:bg-gray-50 p-2 rounded cursor-pointer">
+					<span>Interview #12 - VP Engineering, Enterprise Co.</span>
+					<span class="text-gray-400">→</span>
+				</div>
+				<div class="flex items-center justify-between text-[10px] text-gray-500 hover:bg-gray-50 p-2 rounded cursor-pointer">
+					<span>Interview #27 - CTO, Mid-Market SaaS</span>
+					<span class="text-gray-400">→</span>
+				</div>
+				<div class="flex items-center justify-between text-[10px] text-gray-500 hover:bg-gray-50 p-2 rounded cursor-pointer">
+					<span>Interview #45 - Dir. IT, Fortune 500</span>
+					<span class="text-gray-400">→</span>
+				</div>
 			</div>
 		</div>
 	</FeatureSection>
