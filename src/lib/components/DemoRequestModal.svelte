@@ -150,7 +150,7 @@
 								type="tel"
 								id="phone"
 								bind:value={formData.phone}
-								class="w-full px-0 py-2 border-0 border-b border-gray-300 focus:border-black focus:outline-none transition-colors text-sm"
+								class="w-full px-0 py-2 border-0 border-b border-gray-300 focus:border-black focus:outline-none transition-colors text-sm text-black"
 								placeholder="+1 (555) 123-4567"
 							/>
 						</div>
@@ -164,7 +164,7 @@
 								id="message"
 								bind:value={formData.message}
 								rows="3"
-								class="w-full px-0 py-2 border-0 border-b border-gray-300 focus:border-black focus:outline-none transition-colors text-sm resize-none"
+								class="w-full px-0 py-2 border-0 border-b border-gray-300 focus:border-black focus:outline-none transition-colors text-sm resize-none text-black"
 								placeholder="e.g., Looking for pre-LOI diligence support..."
 							></textarea>
 						</div>

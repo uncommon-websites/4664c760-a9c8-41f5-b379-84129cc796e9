@@ -1,0 +1,34 @@
+<section class="relative py-32 border-b border-white/5 overflow-hidden">
+	<div class="max-w-[1400px] mx-auto px-6 relative z-10">
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+			<!-- Image -->
+			<div class="relative rounded-lg overflow-hidden aspect-video lg:aspect-[4/3] bg-gray-800 shadow-2xl">
+				<img 
+					src="/uploaded/1765368715371-z2whkd3.png" 
+					alt="Leading European PE Fund" 
+					class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+				/>
+			</div>
+
+			<!-- Content -->
+			<div>
+				<div class="mb-10">
+					<span class="inline-block px-3 py-1 border border-white/20 rounded text-[10px] uppercase tracking-widest text-gray-300 mb-8">Case Study</span>
+					<blockquote class="text-3xl md:text-4xl font-serif leading-[1.2] mb-10 font-light">
+						“Harvey has been a significant achievement for our legal department – the implementation of Harvey positions Repsol's lawyers at the forefront of the legal profession's digital transformation.”
+					</blockquote>
+					<div class="flex items-center justify-between flex-wrap gap-6">
+						<div>
+							<cite class="not-italic font-medium block text-lg">Oscar Hjort</cite>
+							<span class="text-sm text-gray-400">Associate Director, Axcel</span>
+						</div>
+						<button class="bg-white text-black px-6 py-3 rounded text-sm font-medium hover:bg-gray-200 transition-colors">
+							Read Case Study
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
