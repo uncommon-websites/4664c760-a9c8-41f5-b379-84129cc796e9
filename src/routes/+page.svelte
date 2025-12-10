@@ -7,7 +7,6 @@
 	import Testimonial from '$lib/components/Testimonial.svelte';
 	import Solutions from '$lib/components/Solutions.svelte';
 	import GridFeatures from '$lib/components/GridFeatures.svelte';
-	import QuoteSection from '$lib/components/QuoteSection.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
@@ -21,7 +20,6 @@
 	<Testimonial />
 	<Solutions />
 	<GridFeatures />
-	<QuoteSection />
 </main>
 
 <Footer />
