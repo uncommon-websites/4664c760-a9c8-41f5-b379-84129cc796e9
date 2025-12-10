@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { ArrowRight } from 'lucide-svelte';
+
+	type Props = {
+		openModal: () => void;
+	};
+
+	let { openModal }: Props = $props();
 </script>
 
 <div class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-white/5">
@@ -34,8 +40,11 @@
 		</div>
 
 		<!-- CTA -->
-		<a href="#" class="text-[13px] font-medium bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition-colors">
+		<button 
+			onclick={openModal}
+			class="text-[13px] font-medium bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition-colors"
+		>
 			Request Demo
-		</a>
+		</button>
 	</nav>
 </div>

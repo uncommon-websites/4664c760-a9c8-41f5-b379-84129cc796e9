@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { Play } from 'lucide-svelte';
+
+	type Props = {
+		openModal: () => void;
+	};
+
+	let { openModal }: Props = $props();
 </script>
 
 <section class="pt-36 pb-20 px-6 max-w-[1400px] mx-auto text-center">
@@ -12,7 +18,10 @@
 		for private equity deal teams. Faster, cheaper, auditable.
 	</p>
 
-	<button class="bg-white text-black px-7 py-3.5 rounded text-sm font-medium hover:bg-gray-200 transition-colors mb-20">
+	<button 
+		onclick={openModal}
+		class="bg-white text-black px-7 py-3.5 rounded text-sm font-medium hover:bg-gray-200 transition-colors mb-20"
+	>
 		Request a Demo
 	</button>
 

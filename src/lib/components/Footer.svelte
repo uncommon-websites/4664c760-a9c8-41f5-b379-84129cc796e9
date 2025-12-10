@@ -1,7 +1,18 @@
+<script lang="ts">
+	type Props = {
+		openModal: () => void;
+	};
+
+	let { openModal }: Props = $props();
+</script>
+
 <section class="py-32 text-center border-b border-white/5">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<h2 class="text-4xl md:text-5xl font-serif mb-12">Investor-Grade Due-Diligence for Your Firm</h2>
-		<button class="bg-white text-black px-8 py-4 rounded text-sm font-medium hover:bg-gray-200 transition-colors">
+		<button 
+			onclick={openModal}
+			class="bg-white text-black px-8 py-4 rounded text-sm font-medium hover:bg-gray-200 transition-colors"
+		>
 			Request a Demo
 		</button>
 	</div>

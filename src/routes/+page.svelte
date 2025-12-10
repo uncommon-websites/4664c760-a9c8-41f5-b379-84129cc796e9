@@ -8,12 +8,23 @@
 	import Solutions from '$lib/components/Solutions.svelte';
 	import GridFeatures from '$lib/components/GridFeatures.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import DemoRequestModal from '$lib/components/DemoRequestModal.svelte';
+
+	let isModalOpen = $state(false);
+
+	function openModal() {
+		isModalOpen = true;
+	}
+
+	function closeModal() {
+		isModalOpen = false;
+	}
 </script>
 
-<Navbar />
+<Navbar {openModal} />
 
 <main>
-	<Hero />
+	<Hero {openModal} />
 	<Logos />
 	<Features />
 	<Stats />
@@ -22,5 +33,7 @@
 	<GridFeatures />
 </main>
 
-<Footer />
+<Footer {openModal} />
+
+<DemoRequestModal isOpen={isModalOpen} onClose={closeModal} />
 
