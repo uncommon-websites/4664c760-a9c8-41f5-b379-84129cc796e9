@@ -29,37 +29,34 @@
 
 			<!-- Columns -->
 			<div>
-				<h4 class="text-gray-500 mb-6 font-medium">Platform</h4>
+				<h4 class="text-gray-500 mb-6 font-medium">Product</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Assistant</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Vault</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Knowledge</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Workflows</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Microsoft Integrations</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Partnerships</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Platform</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">AI Interviews</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Automated Synthesis</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Interactive Reports</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
 				</ul>
 			</div>
 
 			<div>
 				<h4 class="text-gray-500 mb-6 font-medium">Solutions</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Innovation</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">In-House</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Transactional</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Litigation</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Collaboration</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Private Equity</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Commercial Diligence</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Market Research</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Customer Insights</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="text-gray-500 mb-6 font-medium">About</h4>
+				<h4 class="text-gray-500 mb-6 font-medium">Company</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Customers</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Security</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Company</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Newsroom</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">About</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Team</a></li>
 					<li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Law Schools</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
 				</ul>
 			</div>
 
@@ -67,11 +64,10 @@
 				<h4 class="text-gray-500 mb-6 font-medium">Resources</h4>
 				<ul class="space-y-4">
 					<li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Videos</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Legal</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Security</a></li>
 					<li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Press Kit</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Your Privacy Choices</a></li>
+					<li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
 				</ul>
 			</div>
 		</div>

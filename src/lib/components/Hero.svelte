@@ -17,7 +17,12 @@
 	</button>
 
 	<!-- Video Placeholder -->
-	<div class="relative w-full aspect-video md:aspect-[2/1] bg-gray-900 rounded-lg overflow-hidden group cursor-pointer">
+	<a 
+		href="https://www.linkedin.com/feed/update/urn:li:activity:7392334980800163840/" 
+		target="_blank" 
+		rel="noopener noreferrer"
+		class="relative w-full aspect-video md:aspect-[2/1] bg-gray-900 rounded-lg overflow-hidden group cursor-pointer block"
+	>
 		<img 
 			src="/uploaded/1765294985248-xv1keas.jpg" 
 			alt="DiligenceSquared founders" 
@@ -28,5 +33,5 @@
 				<Play size={14} fill="currentColor" /> Watch Demo
 			</div>
 		</div>
-	</div>
+	</a>
 </section>
