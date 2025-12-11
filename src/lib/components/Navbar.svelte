@@ -26,7 +26,6 @@
 			<button onclick={openModal} class="hover:text-white transition-colors">Platform</button>
 			<button onclick={openModal} class="hover:text-white transition-colors">Case Studies</button>
 			<button onclick={openModal} class="hover:text-white transition-colors">About</button>
-			<button onclick={openModal} class="hover:text-white transition-colors">Contact</button>
 		</div>
 
 		<!-- CTA -->
