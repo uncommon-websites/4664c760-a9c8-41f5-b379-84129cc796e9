@@ -13,7 +13,7 @@
 			onclick={openModal}
 			class="bg-white text-black px-8 py-4 rounded text-sm font-medium hover:bg-gray-200 transition-colors"
 		>
-			Request a Demo
+			Book Demo
 		</button>
 	</div>
 </section>

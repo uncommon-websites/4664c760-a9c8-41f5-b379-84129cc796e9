@@ -33,7 +33,7 @@
 			onclick={openModal}
 			class="text-[13px] font-medium bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition-colors"
 		>
-			Request Demo
+			Book Demo
 		</button>
 	</nav>
 </div>

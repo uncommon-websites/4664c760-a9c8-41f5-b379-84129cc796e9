@@ -22,7 +22,7 @@
 		onclick={openModal}
 		class="bg-white text-black px-7 py-3.5 rounded text-sm font-medium hover:bg-gray-200 transition-colors mb-20"
 	>
-		Request a Demo
+		Book Demo
 	</button>
 
 	<!-- Video Placeholder -->
