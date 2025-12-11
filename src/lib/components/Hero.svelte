@@ -32,6 +32,12 @@
 		rel="noopener noreferrer"
 		class="relative w-full aspect-video md:aspect-[2/1] bg-gray-800 rounded-lg overflow-hidden group cursor-pointer block"
 	>
+		<img 
+			src="/uploaded/1765445218739-8ffcyv5.jpg" 
+			alt="DiligenceSquared team members" 
+			class="absolute inset-0 w-full h-full object-cover"
+		/>
+		<div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors"></div>
 		<div class="absolute inset-0 flex items-center justify-center">
 			<div class="bg-white/10 backdrop-blur-sm border border-white/20 px-5 py-2.5 rounded-full flex items-center gap-3 text-sm font-medium hover:bg-white/20 transition-colors">
 				<Play size={14} fill="currentColor" /> Watch Demo
