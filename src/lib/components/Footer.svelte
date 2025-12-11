@@ -84,7 +84,7 @@
 		</div>
 
 		<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 text-gray-500 text-xs">
-			<p>Copyright © 2025 DiligenceSquared Inc. All rights reserved. San Francisco, CA.</p>
+			<p>Copyright © 2025 Diligenced Inc. All rights reserved. San Francisco, CA.</p>
 			<div class="flex gap-6 mt-4 md:mt-0">
 				<button onclick={openModal} class="hover:text-white transition-colors">X</button>
 				<button onclick={openModal} class="hover:text-white transition-colors">LinkedIn</button>

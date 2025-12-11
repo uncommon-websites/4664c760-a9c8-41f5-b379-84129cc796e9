@@ -34,7 +34,7 @@
 	>
 		<img 
 			src="/uploaded/1765294985248-xv1keas.jpg" 
-			alt="DiligenceSquared founders" 
+			alt="Diligenced founders" 
 			class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
 		/>
 		<div class="absolute inset-0 flex items-center justify-center">
