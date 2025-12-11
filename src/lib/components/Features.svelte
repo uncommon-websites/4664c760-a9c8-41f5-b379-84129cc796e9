@@ -1,6 +1,12 @@
 <script lang="ts">
 	import FeatureSection from './FeatureSection.svelte';
 	import { MessageSquare, FileSearch, Globe, BarChart3 } from 'lucide-svelte';
+
+	type Props = {
+		openModal: () => void;
+	};
+
+	let { openModal }: Props = $props();
 </script>
 
 <section>
@@ -18,6 +24,7 @@
 		description="Conduct 120+ expert interviews in a week. Our AI agents ask follow-up questions, probe deeper, and capture nuanced insights that traditional surveys miss."
 		linkText="See Interview Capabilities"
 		reversed={false}
+		{openModal}
 	>
 		<!-- Interview UI Mockup -->
 		<div class="bg-white text-black p-8 rounded shadow-2xl w-full max-w-md relative">
@@ -54,6 +61,7 @@
 		description="Our AI analyzes hundreds of interviews and synthesizes findings into clear, actionable reports. Every insight is traceable to its source for complete auditability."
 		linkText="View Sample Reports"
 		reversed={true}
+		{openModal}
 	>
 		<!-- Synthesis UI Mockup -->
 		<div class="bg-white text-black p-6 rounded shadow-2xl w-full max-w-md text-xs">
@@ -85,6 +93,7 @@
 		description="Conduct interviews in local languages across 5+ countries simultaneously. Our AI voice agents handle Nordic, European, and Asian markets with native fluency."
 		linkText="See Language Support"
 		reversed={false}
+		{openModal}
 	>
 		<!-- Multilingual UI Mockup -->
 		<div class="grid grid-cols-2 gap-4 w-full max-w-md">
@@ -114,6 +123,7 @@
 		description="Every finding links back to source interviews. Review transcripts, validate insights, and drill down into the data. Built for the scrutiny of Investment Committees."
 		linkText="Explore Platform"
 		reversed={true}
+		{openModal}
 	>
 		<!-- Reports UI Mockup -->
 		<div class="bg-white text-black p-6 rounded shadow-2xl w-full max-w-md text-xs">

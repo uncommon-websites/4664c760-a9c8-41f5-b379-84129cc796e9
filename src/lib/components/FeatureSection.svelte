@@ -1,11 +1,16 @@
 <script lang="ts">
 	import { ChevronRight } from 'lucide-svelte';
 
-	export let title: string;
-	export let subtitle: string;
-	export let description: string;
-	export let linkText: string;
-	export let reversed: boolean = false;
+	type Props = {
+		title: string;
+		subtitle: string;
+		description: string;
+		linkText: string;
+		reversed?: boolean;
+		openModal: () => void;
+	};
+
+	let { title, subtitle, description, linkText, reversed = false, openModal }: Props = $props();
 </script>
 
 <div class="grid grid-cols-1 md:grid-cols-2 min-h-[600px] border-b border-white/5">
@@ -16,9 +21,9 @@
 		<p class="text-gray-400 mb-10 leading-relaxed max-w-md text-lg font-light">
 			{description}
 		</p>
-		<a href="#" class="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
+		<button onclick={openModal} class="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
 			{linkText} <ChevronRight size={12} class="group-hover:translate-x-0.5 transition-transform" />
-		</a>
+		</button>
 	</div>
 
 	<!-- Visual Side -->

@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { ChevronRight, FileText, Type, ArrowDown } from 'lucide-svelte';
+
+	type Props = {
+		openModal: () => void;
+	};
+
+	let { openModal }: Props = $props();
 </script>
 
 <section class="py-32 border-b border-white/5">
@@ -69,9 +75,9 @@
 				<p class="text-gray-400 mb-10 leading-relaxed text-lg font-light">
 					Get deep market insights before committing to expensive traditional consulting. Make confident IC presentations with auditable customer data.
 				</p>
-				<a href="#" class="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
+				<button onclick={openModal} class="text-sm text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1 group">
 					Explore Use Cases <ChevronRight size={12} class="group-hover:translate-x-0.5 transition-transform" />
-				</a>
+				</button>
 			</div>
 		</div>
 	</div>

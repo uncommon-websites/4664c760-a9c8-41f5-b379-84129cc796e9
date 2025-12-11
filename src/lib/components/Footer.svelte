@@ -42,43 +42,43 @@
 			<div>
 				<h4 class="text-gray-500 mb-6 font-medium">Product</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Platform</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">AI Interviews</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Automated Synthesis</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Interactive Reports</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Platform</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">AI Interviews</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Automated Synthesis</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Interactive Reports</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Pricing</button></li>
 				</ul>
 			</div>
 
 			<div>
 				<h4 class="text-gray-500 mb-6 font-medium">Solutions</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Private Equity</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Commercial Diligence</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Market Research</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Customer Insights</a></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Private Equity</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Commercial Diligence</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Market Research</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Customer Insights</button></li>
 				</ul>
 			</div>
 
 			<div>
 				<h4 class="text-gray-500 mb-6 font-medium">Company</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">About</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Team</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">About</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Team</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Careers</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Case Studies</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Contact</button></li>
 				</ul>
 			</div>
 
 			<div>
 				<h4 class="text-gray-500 mb-6 font-medium">Resources</h4>
 				<ul class="space-y-4">
-					<li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Security</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-					<li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Blog</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Documentation</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Security</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Privacy Policy</button></li>
+					<li><button onclick={openModal} class="hover:text-white transition-colors text-left">Terms of Service</button></li>
 				</ul>
 			</div>
 		</div>
@@ -86,9 +86,9 @@
 		<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 text-gray-500 text-xs">
 			<p>Copyright © 2025 DiligenceSquared Inc. All rights reserved. San Francisco, CA.</p>
 			<div class="flex gap-6 mt-4 md:mt-0">
-				<a href="#" class="hover:text-white transition-colors">X</a>
-				<a href="#" class="hover:text-white transition-colors">LinkedIn</a>
-				<a href="#" class="hover:text-white transition-colors">YouTube</a>
+				<button onclick={openModal} class="hover:text-white transition-colors">X</button>
+				<button onclick={openModal} class="hover:text-white transition-colors">LinkedIn</button>
+				<button onclick={openModal} class="hover:text-white transition-colors">YouTube</button>
 			</div>
 		</div>
 	</div>

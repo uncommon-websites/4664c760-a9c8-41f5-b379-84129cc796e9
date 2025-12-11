@@ -26,10 +26,10 @@
 <main>
 	<Hero {openModal} />
 	<Logos />
-	<Features />
+	<Features {openModal} />
 	<Stats />
 	<Testimonial />
-	<Solutions />
+	<Solutions {openModal} />
 	<GridFeatures />
 </main>
 
