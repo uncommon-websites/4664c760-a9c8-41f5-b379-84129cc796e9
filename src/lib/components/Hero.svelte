@@ -10,12 +10,12 @@
 
 <section class="pt-36 pb-20 px-6 max-w-[1400px] mx-auto text-center">
 	<h1 class="text-6xl md:text-8xl lg:text-[6.5rem] leading-[0.95] mb-8 tracking-tight font-medium">
-		Investor-Grade <br /> Due Diligence in Days
+		From Calls <br /> to Conviction
 	</h1>
-	
+
 	<p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
-		AI-moderated interviews and automated synthesis <br />
-		for private equity deal teams. Faster, cheaper, auditable.
+		Transform expert interviews into actionable intelligence. <br />
+		AI-powered diligence for private equity teams.
 	</p>
 
 	<button 
@@ -34,7 +34,7 @@
 	>
 		<img 
 			src="/uploaded/1765445218739-8ffcyv5.jpg" 
-			alt="DiligenceSquared team members" 
+			alt="Vettd team members" 
 			class="absolute inset-0 w-full h-full object-cover"
 		/>
 		<div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors"></div>

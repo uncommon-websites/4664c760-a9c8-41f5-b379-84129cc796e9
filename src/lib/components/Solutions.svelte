@@ -12,7 +12,7 @@
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="text-center mb-16">
 			<span class="text-sm text-gray-400 block mb-3 font-medium">Built for Deal Teams</span>
-			<h2 class="text-4xl md:text-5xl font-serif mb-10">How PE Firms Use DiligenceSquared</h2>
+			<h2 class="text-4xl md:text-5xl font-serif mb-10">How PE Firms Use Vettd</h2>
 			
 			<div class="inline-flex flex-wrap justify-center gap-1 p-1 bg-surface rounded-full border border-white/10">
 				<button class="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium shadow-sm">Pre-LOI Diligence</button>

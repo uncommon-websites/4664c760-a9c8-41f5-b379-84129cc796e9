@@ -5,7 +5,7 @@
 <section class="py-32 border-b border-white/5">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="text-center mb-24">
-			<h2 class="text-4xl md:text-5xl font-serif">Why Private Equity Firms Choose DiligenceSquared</h2>
+			<h2 class="text-4xl md:text-5xl font-serif">Why Private Equity Firms Choose Vettd</h2>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">

@@ -18,7 +18,7 @@
 	<nav class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
 		<!-- Logo -->
 		<a href="/" class="flex items-center gap-2 text-white">
-			<span class="text-xl font-medium tracking-tight">Diligenced</span>
+			<span class="text-xl font-medium tracking-tight">Vettd</span>
 		</a>
 
 		<!-- Links -->

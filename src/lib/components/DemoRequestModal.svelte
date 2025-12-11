@@ -58,7 +58,7 @@
 					<div class="mb-8">
 						<p class="text-xs text-gray-500 mb-2 tracking-wide uppercase">Demo Request</p>
 						<h2 id="modal-title" class="text-3xl font-medium mb-3 text-black">
-							See Diligenced in Action
+							See Vettd in Action
 						</h2>
 						<p class="text-sm text-gray-600 leading-relaxed">
 							Let us show you how we deliver investor-grade due diligence in days, not weeks.
