@@ -30,13 +30,8 @@
 		href="https://www.linkedin.com/feed/update/urn:li:activity:7392334980800163840/" 
 		target="_blank" 
 		rel="noopener noreferrer"
-		class="relative w-full aspect-video md:aspect-[2/1] bg-gray-900 rounded-lg overflow-hidden group cursor-pointer block"
+		class="relative w-full aspect-video md:aspect-[2/1] bg-gray-800 rounded-lg overflow-hidden group cursor-pointer block"
 	>
-		<img 
-			src="/uploaded/1765294985248-xv1keas.jpg" 
-			alt="Diligenced founders" 
-			class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
-		/>
 		<div class="absolute inset-0 flex items-center justify-center">
 			<div class="bg-white/10 backdrop-blur-sm border border-white/20 px-5 py-2.5 rounded-full flex items-center gap-3 text-sm font-medium hover:bg-white/20 transition-colors">
 				<Play size={14} fill="currentColor" /> Watch Demo
